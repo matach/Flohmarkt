@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="create Article"
+        android:id="@+id/mnu_create"
+        android:icon="@android:drawable/ic_input_add"/>
+
+    <item
+        android:title="settings"
+        android:id="@+id/mnu_settings"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+
+    <item
+        android:title="add GPS agent"
+        android:id="@+id/mnu_search_gps"
+        android:onClick="startGPSService"/>
+    <item
+        android:title="add Price agent"
+        android:id="@+id/mnu_price_gps"
+        android:onClick="startPriceService"/>
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="call"
+        android:id="@+id/mnu_call"
+        android:icon="@android:drawable/ic_menu_call"/>
+
+    <item
+        android:title="delete Article"
+        android:id="@+id/mnu_delete"
+        android:icon="@android:drawable/ic_delete"/>
+    <item
+        android:title="open Map"
+        android:id="@+id/mnu_map"/>
+</menu>
